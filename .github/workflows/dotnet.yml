@@ -35,7 +35,7 @@ jobs:
       working-directory: OccurrenceApi/OccurrenceApi
 
     - name: Upload publish directory as artifact
-      uses: actions/upload-artifact@v3.1.3
+      uses: actions/upload-artifact@v3
       with:
         name: published-api
         path: OccurrenceApi/publish
