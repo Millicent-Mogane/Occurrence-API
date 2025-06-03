@@ -24,12 +24,9 @@ jobs:
 
     - name: Restore dependencies
       run: dotnet restore
-      working-directory: OccurrenceApi/OccurrenceApi
 
     - name: Build
       run: dotnet build --no-restore
-      working-directory: OccurrenceApi/OccurrenceApi
 
     - name: Publish
       run: dotnet publish -c Release -o ../publish
-      working-directory: OccurrenceApi/OccurrenceApi
