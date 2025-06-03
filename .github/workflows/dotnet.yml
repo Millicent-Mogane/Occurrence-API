@@ -30,3 +30,4 @@ jobs:
     - working-directory: OccurrenceApi
     - name: Publish
       run: dotnet publish -c Release -o publish
+    - working-directory: OccurrenceApi
